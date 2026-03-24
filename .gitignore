@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+*.db
+
+# Hypothesis
+.hypothesis/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Misc
+.DS_Store
+.env
+.pytest_cache/
