@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import axios from 'axios';
 
-// In production (GitHub Pages) point to the Render backend.
+// In production (GitHub Pages) point to the HF Space backend.
 // In dev, Vite proxies /simulate to localhost:8000.
 const API_BASE = import.meta.env.PROD
-  ? 'https://decision-simulator-api.onrender.com'
+  ? 'https://himanshunakrani9-decision-simulator-api.hf.space'
   : '';
 
 const s = {

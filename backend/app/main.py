@@ -29,6 +29,7 @@ app.add_middleware(
         "http://127.0.0.1",
         "http://127.0.0.1:5173",
         "https://himanshu-nakrani.github.io",
+        "https://himanshunakrani9-decision-simulator-api.hf.space",
     ],
     allow_credentials=True,
     allow_methods=["*"],
